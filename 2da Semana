@@ -1,0 +1,24 @@
+using System;
+
+namespace Número_Par_o_Impar
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            short Num;
+            Console.Write("Ingrese un Numero: ");
+            Num = Convert.ToInt16(Console.ReadLine());
+
+            if ((Num % 2) == 0)
+            {
+                Console.WriteLine("El Numero ingresado es PAR");
+
+            }
+            else
+            {
+                Console.WriteLine("El numero ingresado es IMPAR");
+            }
+        }
+    }
+}
